@@ -1,4 +1,4 @@
-name: Deploy
+name: tours-02
 
 on:
   push:
