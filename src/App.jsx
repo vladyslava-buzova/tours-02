@@ -19,10 +19,8 @@ const App = () => {
     try {
       const response = await fetch(url)
       const tours = await response.json()
-      setLoading(false);
       setData(tours)
     } catch (error) {
-      setLoading(false);
       console.log(error);
     }
     setLoading(false);
@@ -42,22 +40,12 @@ const App = () => {
   //   getSomething();
   // }, [])
 
-  { loading &&
-    <main> 
-      <Loading /> 
-    </main> 
-  }
-
-  { data.length === 0 && 
-    <div className="title">
-      <h2>no tours left</h2>
-      <button
-        type="button"
-        className="btn"
-        onClick={() => fetchTours()}>
-          refresh
-      </button>
-    </div>
+  if (loading) {
+    return (
+      <main> 
+        <Loading /> 
+      </main> 
+    )
   }
 
   if (data.length === 0) {
@@ -74,7 +62,6 @@ const App = () => {
     </div>
     )
   }
-    
 
   return (
     <main> 
