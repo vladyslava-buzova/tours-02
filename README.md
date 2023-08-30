@@ -1,8 +1,22 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Figma URL
 
-Currently, two official plugins are available:
+[Tours](https://www.figma.com/file/eCx3znQTlMPVcQT56iF9d6/Tours-(Copy)?type=design&node-id=0-1&mode=design&t=AVd4PybIwFt9WEqD-0)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Implemented features:
+1. Fetching data from API.
+2. Loading spinner before the data is loaded.
+3. Removing tours from the list.
+4. Implement the "read more" functionality. When click on the "read more" button, expands the description of the tour.
+5. Implemented a "re-fetch" functionality by adding a button, so when clicked, re-fetches the tours data from the URL and updates the state of the Tours component
+
+## How to launch a project:
+1. Clone the repo.
+  - git clone the-link-from-your-forked-repo.
+2. Check your Node.js version.
+  - node -v
+3. Run VSCode and open the project folder.
+4. Open a terminal in the project folder.
+5. Run 'npm install' (or just npm i) to install the dependencies.
+6. Run 'npm run dev' to start the project.
