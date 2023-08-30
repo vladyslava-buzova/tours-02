@@ -14,17 +14,17 @@ const Tour = ({ id, image, info, name, price, removeTour }) => {
         <button
           type="button"
           className="info-btn"
-          onClick={() => setReadMore(!readMore)}>
+          onClick={() => setReadMore(!readMore)}
+          style={{marginBottom:'2rem'}}>
             {readMore ? 'read less' : 'read more'}
         </button>
+        <button 
+          type="button" 
+          className="btn btn-block delete-btn" 
+          onClick={() => removeTour(id)}>
+            Not Interested
+        </button>
       </div>
-
-      <button 
-        type="button" 
-        className="btn btn-block delete-btn" 
-        onClick={() => removeTour(id)}>
-          Not Interested
-      </button>
     </article>
   );
 };

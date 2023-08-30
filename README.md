@@ -2,7 +2,7 @@
 
 ## Figma URL
 
-[Tours](https://www.figma.com/file/eCx3znQTlMPVcQT56iF9d6/Tours-(Copy)?type=design&node-id=0-1&mode=design&t=AVd4PybIwFt9WEqD-0)
+[Tours](https://www.figma.com/file/eCx3znQTlMPVcQT56iF9d6/Tours?type=design&node-id=0-1&mode=design&t=DTG1hicMic3C5mz6-0)
 
 ## Implemented features:
 1. Fetching data from API.
