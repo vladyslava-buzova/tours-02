@@ -1,5 +1,8 @@
 # React + Vite
 
+## React Project "Tours"
+[ProjectLink](https://vladyslava-buzova.github.io/tours-02/)
+
 ## Figma URL
 
 [Tours](https://www.figma.com/file/eCx3znQTlMPVcQT56iF9d6/Tours?type=design&node-id=0-1&mode=design&t=DTG1hicMic3C5mz6-0)
